@@ -1,0 +1,125 @@
+@charset 'utf-8'; 
+
+body {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+// body {
+//   background-color: whitesmoke;
+//   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+// }
+
+.container {
+  background-color: aqua;
+  width: 95%;
+  margin: 0 auto;
+  // display: flex;
+  // justify-content: center;
+}
+
+// .container {
+//   width: 95%;
+//   margin: 0 auto;
+//   display: flex;
+//   justify-content: center;
+// }
+
+.input-box {
+  background-color: burlywood;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgb(179,179,179);
+
+  & input {
+    padding: 8px;
+    border-radius: 5px;
+    width: 95%;
+    border: 1px solid lightgray;
+  }
+
+  & button {
+    width: fit-content;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+    &:hover { // button:hover
+      background-color: rgb(38, 37, 37);
+      color: whitesmoke;
+    }
+  }
+}
+
+// .input-box {
+//   width: 300px;
+//   margin: 0 auto;
+//   padding: 20px;
+//   border-radius: 5px;
+//   background-color: whitesmoke;
+//   box-shadow: 0 2px 4px 0 rgb(179, 179, 179);
+
+//   & input {
+//     padding: 8px;
+//     border-radius: 5px;
+//     width: 95%;
+//     border: 1px solid lightgray;
+//     }
+
+//   & button {
+//     width: fit-content;
+//     padding: 8px;
+//     cursor: pointer;
+//     border: 1px solid lightgray;
+//     border-radius: 5px;
+//     background-color: whitesmoke;
+
+//     &:hover {
+//       background-color: rgb(38, 37, 37);
+//       color: white;
+//     }
+//   }
+// }
+
+.color-boxes {
+  background-color: rebeccapurple;
+  width: 80%;
+  height: 300px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+// .color-boxes {
+//   width: 100%;
+//   margin-top: 20px;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+// }
+
+.box {
+  width: 280px;
+  text-align: center;
+  // background-color: green;
+  color: #222222;
+
+  & h2 {
+    text-transform: uppercase;
+  }
+}
+
+// .box {
+//   width: 280px;
+//   text-align: center;
+
+//   & h2 {
+//     text-transform: uppercase;
+//   }
+// }
